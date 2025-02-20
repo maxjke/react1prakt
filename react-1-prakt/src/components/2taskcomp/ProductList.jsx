@@ -5,9 +5,9 @@ import Cart from './Cart';
 function ProductList({ onAddToCart }) {
   
   const [products] = useState([
-    { id: 1, name: 'Produktas 1', description: 'Pirmojo produkto aprašymas' },
-    { id: 2, name: 'Produktas 2', description: 'Antrojo produkto aprašymas' },
-    { id: 3, name: 'Produktas 3', description: 'Trečiojo produkto aprašymas' },
+    { id: 1, name: 'Produktas 1', description: 'Produkto aprašymas' },
+    { id: 2, name: 'Produktas 2', description: 'Produkto aprašymas' },
+    { id: 3, name: 'Produktas 3', description: 'Produkto aprašymas' },
   ]);
 
   return (
