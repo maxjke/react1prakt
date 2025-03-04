@@ -25,16 +25,16 @@ function App() {
   };
 
    return (
-    <div style={{ padding: '16px' }}>
-      <h1>Pirkinių krepšelio sistema</h1>
-      <ProductList onAddToCart={handleAddToCart} />
-      <Cart cartItems={cart} onRemoveFromCart={handleRemoveFromCart} />
-    </div>
-    // <>{/* <TaskList/> */}</>
     // <div style={{ padding: '16px' }}>
-    //   <h1>Skaičių spėjimo žaidimas</h1>
-    //   <GuessGame/>
+    //   <h1>Pirkinių krepšelio sistema</h1>
+    //   <ProductList onAddToCart={handleAddToCart} />
+    //   <Cart cartItems={cart} onRemoveFromCart={handleRemoveFromCart} />
     // </div>
+    // <>{/* <TaskList/> */}</>
+    <div style={{ padding: '16px' }}>
+      <h1>Skaičių spėjimo žaidimas</h1>
+      <GuessGame/>
+    </div>
    );
 }
 
